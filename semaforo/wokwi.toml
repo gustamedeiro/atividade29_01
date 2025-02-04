@@ -1,0 +1,20 @@
+[project]
+name = "semaforo_rp2040"
+description = "Simulação de semáforo com Raspberry Pi Pico W e BitDogLab"
+
+[hardware]
+[[hardware.gpio]]
+number = 11
+mode = "output"
+function = "LED vermelho"
+
+[[hardware.gpio]]
+number = 12
+mode = "output"
+function = "LED amarelo"
+
+[[hardware.gpio]]
+number = 13
+mode = "output"
+function = "LED verde"
+

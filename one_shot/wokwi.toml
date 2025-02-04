@@ -1,0 +1,30 @@
+[project]
+name = "Pico LED Timer"
+type = "pico"
+
+[hardware]
+# Raspberry Pi Pico W
+microcontroller = "RP2040"
+
+[components]
+[components.led_blue]
+type = "led"
+pin = 12
+color = "blue"
+
+[components.led_red]
+type = "led"
+pin = 13
+color = "red"
+
+[components.led_green]
+type = "led"
+pin = 11
+color = "green"
+
+[components.button]
+type = "button"
+pin = 5
+pullup = true
+
+[connections]
